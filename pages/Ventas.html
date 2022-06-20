@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Club</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="../assets/css/style.css">
 </head>
 <body>
@@ -45,18 +46,16 @@
         </div>
     </main>
 
-    <aside class="paginaVentas">
-        <h3>Donde encontrar nuestros productos</h3>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perferendis iusto accusamus recusandae est, optio earum incidunt. Ex minus enim excepturi, in rem nemo eligendi laudantium quasi animi quam iste iure.</p>
+    <aside>
         <ul>
             <li>
-                <a href="#" class="redes">
-                        <img src="../assets/img/facebook.png" alt="">
+                <a href="#" class="redes" data-aos="fade-right">
+                    <img src="../assets/img/facebook.png" alt="">
                 </a>
-                <a href="#" class="redes">
+                <a href="#" class="redes" data-aos="fade-up">
                     <img src="../assets/img/twitter.png" alt="">
                 </a>
-                <a href="#" class="redes">
+                <a href="#" class="redes" data-aos="fade-left">
                     <img src="../assets/img/instagram.png" alt="">
                 </a>
             </li>
@@ -65,5 +64,9 @@
     <footer>
         <h5>©2022 JuaniFerraz, todos los derechos reservados</h5>
     </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>
