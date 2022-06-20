@@ -1,0 +1,312 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+}
+body {
+    background-image: url(../img/WhatsApp\ Image\ 2022-06-01\ at\ 3.47.18\ PM.png);
+    background-repeat:no-repeat;
+    background-position-x:center;
+    background-position-y:center;
+    background-size: 400px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+header{
+    display: flex;
+    background-color: #F3F520;
+    align-items: center;
+    justify-content: space-between;
+    color: #1DA826;
+    height: 50px;
+    text-decoration: none;
+}
+.principal {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "quienesSomos  plantel  categorias" ;
+    font-size: 20px;
+    color: #1DA826;
+}
+.quienesSomos{
+    grid-area: quienesSomos; 
+    justify-self: center;
+}
+.quienesSomos:hover {
+    transform: scale(1.2);
+}
+.plantel {
+    grid-area: plantel;
+    justify-self: center;
+}
+.plantel:hover{
+    transform: scale(1.2);
+}
+.categorias {
+    grid-area: categorias;
+    justify-self: center;
+}
+.categorias:hover{
+    transform: scale(1.2);
+}
+.principal h5 {
+    font-size: 20px;
+    text-align: center;
+}
+.principal p{
+    border-radius: 10px;
+    border-width: 3px;
+    border-style: none;
+    width: 200px;
+    padding: 5px;
+    background-color: #1DA826;
+    color: #F3F520;
+    text-align: center;
+
+}
+.pagina{
+    color: #1DA826;
+    text-align: center;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    padding: 0px;
+}
+.logo img{
+    height: 50px;
+    align-items: center;
+    margin-right: 20px;
+}
+a{
+    text-decoration: none;
+    margin-right: 15px;
+    color: #1DA826;
+}
+a:hover{
+    color: aliceblue;
+}
+footer{
+    text-align: center;
+    background-color: #F3F520;
+    height: 50px;
+    color: #1DA826;
+    font-size: 20px;
+}
+footer h5{
+    padding: 15px;
+}
+
+.socios {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 2fr;
+    grid-template-areas:"titulo2 titulo2 titulo2"
+                        "haceteSocio haceteSocio haceteSocio";
+
+}
+.titulo2{
+    grid-area: titulo2;
+    color: #1DA826;
+    text-align: center;
+
+}
+.haceteSocio{
+    grid-area: haceteSocio;
+    border-radius: 10px;
+    border-width: 3px;
+    border-color:  #1DA826;
+    border-style: none;
+    width: 250px;
+    height: 260px;
+    background: linear-gradient(45deg, #1DA826 0%, #F3F520 100%);
+    color: #F3F520;
+    justify-self: center;
+    padding: 5px;
+}
+.haceteSocio form {
+    text-align: center;
+}
+.haceteSocio img {
+    height: 60px;
+    margin-left: 40%;
+    margin-right: 40%;
+    margin-top: 10px;
+}
+input{
+    margin-bottom: 5px;
+    margin-top: 10px;
+    font-size: 15px;
+}
+.btn{
+    padding: 5px;
+    font-size: 15px;
+    color: #1DA826;
+    background-color: #fff;
+    border-style: none;
+}
+.ventas {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 1fr 2fr;
+    grid-template-areas:    "titulo titulo"
+                            "indumentaria accesorios";
+    font-size: 20px;
+    color: #1DA826;
+    justify-content: space-evenly;
+}
+.titulo{
+    grid-area: titulo;
+}
+.indumentaria {
+    grid-area: indumentaria;
+    background-color: #F3F520;
+    font-size: 25px;
+    width: 200px;
+    height: 240px;
+    text-align: center;
+    border-width: 3px;
+    border-radius: 10px;
+    border-style: none;
+    justify-self: center;
+    
+}
+.indumentaria:hover {
+    box-shadow: 0px 0px 13px -2px #1DA826;
+    transform: scale(1.04);
+}
+.indumentaria img {
+    height: 100px;
+}
+.accesorios {
+    grid-area: accesorios;
+    background-color: #F3F520;
+    font-size: 25px;
+    width: 200px;
+    text-align: center;
+    border-width: 3px;
+    border-radius: 10px;
+    border-style: none;
+    justify-self: center;
+}
+.accesorios:hover {
+    box-shadow: 0px 0px 13px -2px #1DA826;
+    transform: scale(1.04);
+}
+.accesorios img {
+    height: 100px;
+}
+.paginaVentas {
+    margin-top: 50px;
+    color: #1DA826;
+    text-align: center;
+}
+.paginaVentas p {
+    font-size: 25px;
+    text-align: center;
+
+    
+}
+aside ul li {
+    display: flex;
+    justify-content: space-between;
+    align-items:flex-end;
+    margin-top: 180px;
+}
+.redes img {
+    height: 60px;
+}
+
+
+
+
+
+.historia{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto auto;
+    grid-template-areas: "tituloHistoria tituloHistoria tituloHistoria"
+                        " imgHistoria parrafoHistoria imgPlantel";
+}
+.tituloHistoria {
+    grid-area: tituloHistoria;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.imgHistoria img{
+    grid-area: imgHistoria;
+    width: 350px;
+    border-radius: 10px;
+}
+.imgHistoria{
+    justify-self: center;
+}
+.parrafoHistoria p{
+    grid-area: parrafoHitoria;
+    width: 300px;
+    text-align: center;
+    border-width: 3px;
+    border-radius: 10px;
+    border-style: none;
+    border-color: #1DA826;
+    background: linear-gradient(45deg, #1DA826 0%, #F3F520 100%);
+    color: #fff;
+    font-size: 25px;
+}
+.parrafoHistoria{
+    justify-self: center;
+}
+.imgPlantel img{
+    grid-area: imgPlantel;
+    width: 350px;
+    border-radius: 10px;
+}
+.imgPlantel{
+    justify-self: center;
+}
+
+
+@media (max-width: 576px) {
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    header {
+        height: 120px;
+    }
+
+    .principal p {
+        width: 150px;
+    }
+
+    .paginaVentas {
+        width: 500px;
+    }
+    .historia{
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: 10% auto auto auto;
+        grid-template-areas: "tituloHistoria"
+                            "imgHistoria"
+                            "parrafoHistoria"
+                            "imgPlantel";
+        margin-bottom: 10px;
+    }
+    .tituloHistoria{
+        grid-area: tituloHistoria;
+    }
+    .imgHistoria img{
+        grid-area: imgHistoria;
+        width: 250px;
+        margin-bottom: 10px;
+    }
+    .parrafoHistoria p {
+        grid-area: parrafoHistoria;
+        margin-bottom: 10px;
+    }
+    .imgPlantel img{
+        grid-area: imgPlantel;
+        width: 250px;
+    }
+}
