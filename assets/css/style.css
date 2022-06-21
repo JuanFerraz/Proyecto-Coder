@@ -1,6 +1,7 @@
 *{
     box-sizing: border-box;
     padding: 0;
+    margin: 0;
 }
 body {
     background-image: url(../img/WhatsApp\ Image\ 2022-06-01\ at\ 3.47.18\ PM.png);
@@ -61,8 +62,8 @@ header{
     background-color: #1DA826;
     color: #F3F520;
     text-align: center;
-
 }
+
 .pagina{
     color: #1DA826;
     text-align: center;
@@ -176,7 +177,7 @@ input{
     transform: scale(1.04);
 }
 .indumentaria img {
-    height: 100px;
+    height: 150px;
 }
 .accesorios {
     grid-area: accesorios;
@@ -194,7 +195,7 @@ input{
     transform: scale(1.04);
 }
 .accesorios img {
-    height: 100px;
+    height: 150px;
 }
 .paginaVentas {
     margin-top: 50px;
