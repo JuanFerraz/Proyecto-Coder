@@ -28,24 +28,16 @@ header{
     font-size: 20px;
     color: #1DA826;
 }
-.quienesSomos{
-    grid-area: quienesSomos; 
-    justify-self: center;
-}
+
+
 .quienesSomos:hover {
     transform: scale(1.2);
 }
-.plantel {
-    grid-area: plantel;
-    justify-self: center;
-}
+
 .plantel:hover{
     transform: scale(1.2);
 }
-.categorias {
-    grid-area: categorias;
-    justify-self: center;
-}
+
 .categorias:hover{
     transform: scale(1.2);
 }
@@ -196,6 +188,11 @@ input{
 }
 .accesorios img {
     height: 150px;
+}
+.card:hover {
+    box-shadow: 0px 0px 13px -2px #1DA826;
+    transform: scale(1.04);
+    color:#1DA826;
 }
 .paginaVentas {
     margin-top: 50px;
