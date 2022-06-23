@@ -154,9 +154,8 @@ input{
 .indumentaria {
     grid-area: indumentaria;
     background-color: #F3F520;
-    font-size: 25px;
-    width: 200px;
-    height: 240px;
+    font-size: 40px;
+    width: 250px;
     text-align: center;
     border-width: 3px;
     border-radius: 10px;
@@ -168,14 +167,12 @@ input{
     box-shadow: 0px 0px 13px -2px #1DA826;
     transform: scale(1.04);
 }
-.indumentaria img {
-    height: 150px;
-}
+
 .accesorios {
     grid-area: accesorios;
     background-color: #F3F520;
-    font-size: 25px;
-    width: 200px;
+    font-size: 40px;
+    width: 250px;
     text-align: center;
     border-width: 3px;
     border-radius: 10px;
@@ -186,9 +183,7 @@ input{
     box-shadow: 0px 0px 13px -2px #1DA826;
     transform: scale(1.04);
 }
-.accesorios img {
-    height: 150px;
-}
+
 .card:hover {
     box-shadow: 0px 0px 13px -2px #1DA826;
     transform: scale(1.04);
@@ -214,39 +209,6 @@ aside ul li {
 .redes img {
     height: 60px;
 }
-
-.imgHistoria img{
-    grid-area: imgHistoria;
-    width: 350px;
-    border-radius: 10px;
-}
-.imgHistoria{
-    justify-self: center;
-}
-.parrafoHistoria p{
-    grid-area: parrafoHitoria;
-    width: 300px;
-    text-align: center;
-    border-width: 3px;
-    border-radius: 10px;
-    border-style: none;
-    border-color: #1DA826;
-    background: linear-gradient(45deg, #1DA826 0%, #F3F520 100%);
-    color: #fff;
-    font-size: 25px;
-}
-.parrafoHistoria{
-    justify-self: center;
-}
-.imgPlantel img{
-    grid-area: imgPlantel;
-    width: 350px;
-    border-radius: 10px;
-}
-.imgPlantel{
-    justify-self: center;
-}
-
 
 @media (max-width: 576px) {
     *{
