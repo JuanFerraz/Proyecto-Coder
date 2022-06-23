@@ -215,22 +215,6 @@ aside ul li {
     height: 60px;
 }
 
-
-
-
-
-.historia{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: auto auto;
-    grid-template-areas: "tituloHistoria tituloHistoria tituloHistoria"
-                        " imgHistoria parrafoHistoria imgPlantel";
-}
-.tituloHistoria {
-    grid-area: tituloHistoria;
-    margin-bottom: 30px;
-    margin-top: 30px;
-}
 .imgHistoria img{
     grid-area: imgHistoria;
     width: 350px;
