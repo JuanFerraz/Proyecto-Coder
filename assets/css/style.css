@@ -90,46 +90,17 @@ footer h5{
     padding: 15px;
 }
 
-.socios {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 2fr;
-    grid-template-areas:"titulo2 titulo2 titulo2"
-                        "haceteSocio haceteSocio haceteSocio";
-
-}
 .titulo2{
     grid-area: titulo2;
     color: #1DA826;
     text-align: center;
 
 }
-.haceteSocio{
-    grid-area: haceteSocio;
-    border-radius: 10px;
-    border-width: 3px;
-    border-color:  #1DA826;
-    border-style: none;
-    width: 250px;
-    height: 260px;
-    background: linear-gradient(45deg, #1DA826 0%, #F3F520 100%);
-    color: #F3F520;
-    justify-self: center;
-    padding: 5px;
-}
-.haceteSocio form {
-    text-align: center;
-}
-.haceteSocio img {
-    height: 60px;
-    margin-left: 40%;
-    margin-right: 40%;
-    margin-top: 10px;
-}
+
 input{
     margin-bottom: 5px;
     margin-top: 10px;
-    font-size: 15px;
+    font-size: 20px;
 }
 .btn{
     padding: 5px;
