@@ -181,6 +181,13 @@ aside ul li {
     height: 60px;
 }
 
+.elemento {
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    margin-top: 15px ;
+}
 @media (max-width: 576px) {
     *{
         margin: 0;
