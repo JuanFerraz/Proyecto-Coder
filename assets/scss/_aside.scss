@@ -1,0 +1,19 @@
+aside{
+    ul li {
+        display: flex;
+        justify-content: space-between;
+        align-items:flex-end;
+        margin-top: 180px;
+    }
+    .redes img {
+        height: 60px;
+    }
+    a{
+        text-decoration: none;
+        margin-right: 15px;
+        color: $colorVerdeCAJ;
+        &:hover {
+                color: aliceblue;
+        }
+    }
+}

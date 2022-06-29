@@ -1,0 +1,53 @@
+@media (max-width: 576px) {
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    header {
+        height: auto;
+    }
+
+    .principal p {
+        width: 150px;
+    }
+
+    .paginaVentas {
+        width: 500px;
+    }
+    .historia{
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: 10% auto auto auto;
+        grid-template-areas: "tituloHistoria"
+                            "imgHistoria"
+                            "parrafoHistoria"
+                            "imgPlantel";
+        margin-bottom: 10px;
+    }
+    .tituloHistoria{
+        grid-area: tituloHistoria;
+    }
+    .imgHistoria img{
+        grid-area: imgHistoria;
+        width: 250px;
+        margin-bottom: 10px;
+    }
+    .parrafoHistoria p {
+        grid-area: parrafoHistoria;
+        margin-bottom: 10px;
+    }
+    .imgPlantel img{
+        grid-area: imgPlantel;
+        width: 250px;
+    }
+    .ventas{
+        display: flex;
+        .indumentaria {
+            flex-direction: column;
+        }
+        .accesorios{
+            flex-direction: column;
+        }
+    }
+}

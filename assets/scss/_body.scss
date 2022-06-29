@@ -1,0 +1,126 @@
+body {
+    background-image: url(../img/EscudoCAJ.png);
+    background-repeat:no-repeat;
+    background-position-x:center;
+    background-position-y:center;
+    background-size: 50%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    .pagina{
+        color: #1DA826;
+        text-align: center;
+    }
+    .principal {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+        grid-template-areas: "quienesSomos  plantel  categorias" ;
+        font-size: 20px;
+        color: #1DA826;
+        h5 {
+            font-size: 20px;
+            text-align: center;
+        }    
+        p{
+        border-radius: 10px;
+        border-width: 3px;
+        border-style: none;
+        width: 200px;
+        padding: 5px;
+        background-color: #1DA826;
+        color: #F3F520;
+        text-align: center;
+        }
+    }
+    .quienesSomos:hover {
+        transform: scale(1.2);
+    }
+    
+    .plantel:hover{
+        transform: scale(1.2);
+    }
+    
+    .categorias:hover{
+        transform: scale(1.2);
+    }
+    .titulo2{
+        grid-area: titulo2;
+        color: #1DA826;
+        text-align: center;
+    }
+    .ventas {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 1fr 2fr;
+        grid-template-areas:    "titulo titulo"
+                                "indumentaria accesorios";
+        font-size: 20px;
+        color: #1DA826;
+        justify-content: space-evenly;
+        opacity: 0.8;
+        .titulo{
+            grid-area: titulo;
+        }
+        .indumentaria {
+            grid-area: indumentaria;
+            background-color: #F3F520;
+            font-size: 40px;
+            width: 250px;
+            text-align: center;
+            border-width: 3px;
+            border-radius: 10px;
+            border-style: none;
+            justify-self: center;
+            &:hover {box-shadow: 0px 0px 13px -2px #1DA826;
+                    transform: scale(1.04);
+            }
+        }
+        .accesorios {
+            grid-area: accesorios;
+            background-color: #F3F520;
+            font-size: 40px;
+            width: 250px;
+            text-align: center;
+            border-width: 3px;
+            border-radius: 10px;
+            border-style: none;
+            justify-self: center;
+            &:hover {box-shadow: 0px 0px 13px -2px #1DA826;
+                    transform: scale(1.04);}
+        }
+    }
+    .card:hover {
+        box-shadow: 0px 0px 13px -2px #1DA826;
+        transform: scale(1.04);
+        color:#1DA826;
+    }
+    .elemento {
+        display: flex;
+        width: 100%;
+        height: auto;
+        justify-content: center;
+        margin-top: 15px ;
+    }
+    a{
+        text-decoration: none;
+        margin-right: 15px;
+        color: #1DA826;
+        &:hover {
+                color: aliceblue;
+        }
+    }
+    input{
+        margin-bottom: 5px;
+        margin-top: 10px;
+        font-size: 20px;
+    }
+    .btn{
+        padding: 5px;
+        font-size: 15px;
+        color: #1DA826;
+        background-color: #fff;
+        border-style: none;
+    }
+    overflow-x: hidden;
+}
+
+
