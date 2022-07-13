@@ -8,6 +8,7 @@ body {
     .pagina{
         color: #1DA826;
         text-align: center;
+        margin-bottom: 2%;
     }
     .principal {
         display: grid;
@@ -140,7 +141,8 @@ body {
     .lineaTiempo{
         justify-content: space-evenly;
         align-items: center;
-        margin-bottom: 1%;
+        margin: 1%;
+        padding: 1%;
         color: #1DA826;
         text-align: center;
         background-color: #fff;
