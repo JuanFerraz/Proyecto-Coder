@@ -60,6 +60,7 @@ body {
         opacity: 0.8;
         .titulo{
             grid-area: titulo;
+            transform: translate(0, -5rem)
         }
         .indumentaria {
             grid-area: indumentaria;

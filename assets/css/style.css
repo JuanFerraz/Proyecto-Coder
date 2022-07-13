@@ -77,7 +77,8 @@ body {
     justify-content: space-evenly;
     opacity: 0.8; }
     body .ventas .titulo {
-      grid-area: titulo; }
+      grid-area: titulo;
+      transform: translate(0, -5rem); }
     body .ventas .indumentaria {
       grid-area: indumentaria;
       background-color: #F3F520;
@@ -193,4 +194,10 @@ aside a {
     display: flex;
     flex-wrap: wrap; }
     .historia .lineaTiempo {
-      flex-direction: column; } }
+      flex-direction: column; }
+      .historia .lineaTiempo h3 {
+        order: 1; }
+      .historia .lineaTiempo img {
+        order: 2; }
+      .historia .lineaTiempo div {
+        order: 3; } }

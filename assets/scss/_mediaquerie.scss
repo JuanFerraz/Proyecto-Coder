@@ -20,6 +20,10 @@
         flex-wrap: wrap;
         .lineaTiempo{
             flex-direction: column;
+            h3 {order: 1;}
+            img {order: 2;}
+            div {order: 3;}
         }
     }
+
 }
