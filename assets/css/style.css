@@ -150,9 +150,12 @@ body {
     margin: 1%;
     padding: 1%;
     color: #1DA826;
-    text-align: center;
-    background-color: #fff;
-    opacity: 0.8; }
+    text-align: center; }
+    body .lineaTiempo .cardHistoria {
+      background-color: #fff;
+      opacity: 0.8; }
+  body h3 {
+    color: #1DA826; }
 
 footer {
   text-align: center;
@@ -200,4 +203,6 @@ aside a {
       .historia .lineaTiempo img {
         order: 2; }
       .historia .lineaTiempo div {
-        order: 3; } }
+        order: 3; }
+  .accesorios .card {
+    margin-bottom: 5%; } }
