@@ -195,7 +195,8 @@ aside a {
     width: 500px; }
   .historia {
     display: flex;
-    flex-wrap: wrap; }
+    flex-wrap: wrap;
+    justify-content: center; }
     .historia .lineaTiempo {
       flex-direction: column; }
       .historia .lineaTiempo h3 {

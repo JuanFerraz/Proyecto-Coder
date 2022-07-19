@@ -18,6 +18,7 @@
     .historia{
         display: flex;
         flex-wrap: wrap;
+        justify-content: center;
         .lineaTiempo{
             flex-direction: column;
             h3 {order: 1;}
@@ -30,3 +31,4 @@
     }
     }
 }
+
