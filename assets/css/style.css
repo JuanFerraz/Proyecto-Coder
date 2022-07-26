@@ -129,14 +129,14 @@ body {
     display: flex;
     background-color: #fff;
     justify-content: space-evenly;
-    opacity: 0.9; }
+    opacity: 0.9;
+    border-width: 10px;
+    border-radius: 5px;
+    border-style: none; }
     body .registro .beneficios {
       display: flex;
-      border-width: 10px;
-      border-radius: 5px;
-      border-style: none;
-      width: 40%;
-      height: 40%;
+      width: 50%;
+      height: 50%;
       color: #1DA826; }
     body .registro .elemento {
       display: flex;
@@ -188,7 +188,7 @@ aside a {
     padding: 0;
     box-sizing: border-box; }
   header {
-    height: auto; }
+    height: 100%; }
   .principal p {
     width: 150px; }
   .paginaVentas {
@@ -207,3 +207,16 @@ aside a {
         order: 3; }
   .accesorios .card {
     margin-bottom: 5%; } }
+
+@media (max-width: 750px) {
+  .registro {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center; }
+    .registro .beneficios {
+      width: auto;
+      height: auto; } }
