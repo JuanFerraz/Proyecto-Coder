@@ -1,9 +1,11 @@
-*{
-    box-sizing: border-box;
-    padding: 0;
+@mixin reset-list {
     margin: 0;
+    padding: 0;
+    box-sizing: border-box
 }
-
+*{
+    @include reset-list
+}
 
 @import "header.scss";
 @import "body.scss";

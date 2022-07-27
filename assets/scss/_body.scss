@@ -1,3 +1,7 @@
+$estilos: (
+    color: #F3F520,
+);
+
 body {
     background-image: url(../img/EscudoCAJ.png);
     background-repeat:no-repeat;
@@ -27,7 +31,6 @@ body {
         border-style: none;
         width: 200px;
         padding: 5px;
-        background-color: #1DA826;
         color: #F3F520;
         text-align: center;
         }
@@ -64,7 +67,7 @@ body {
         }
         .indumentaria {
             grid-area: indumentaria;
-            background-color: #F3F520;
+            background-color: map-get($estilos, color);
             font-size: 40px;
             width: 250px;
             text-align: center;
@@ -78,7 +81,7 @@ body {
         }
         .accesorios {
             grid-area: accesorios;
-            background-color: #F3F520;
+            background-color: map-get($estilos, color);
             font-size: 40px;
             width: 250px;
             text-align: center;
